@@ -1,7 +1,7 @@
 import pandas as pd
 
 
-input_path="C:\\Users\\wojte\\Desktop\\"
+input_path="C:"
 
 
 input_filename="deauth"
