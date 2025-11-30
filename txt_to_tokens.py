@@ -23,7 +23,7 @@ with open(in_path, "r", encoding="utf-8") as f, open(out_file, "wb") as out:
         lines+=1
         batch.append(line)
         if len(batch) >= BATCH_LINES:
-            enc = tokenizer.encode(batch)   # fast batch tokenization
+            enc = tokenizer.encode(batch)   
             for ids in enc:
                 total_tokens += len(ids)
                 if len(ids) > 0:
